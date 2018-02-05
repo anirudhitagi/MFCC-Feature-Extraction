@@ -1,6 +1,3 @@
-# MFCC-Feature-Extraction
-%Mel Frequency Cepstral Coefficients feature extraction procedure is a very popular feature extraction procedure having applications in %speaker detection, speech recognition, audio identification and other audio processing applications.
-
 % MFCC Feature extraction
 %by Anirudh Itagi
 
@@ -56,8 +53,11 @@ plot(cep);
 disp('the Acoustic Vectors or Cepstral coefficients are: ')
 diag(cep)
 
+%REPORT
 
-
+% In this code we have succesfully learnt and implemented speaker
+% recognition using MFCC feature extraction method based on
+% application of FFT. the implementation is as follows: 
 %
 % STEP1: 
 % Intially we recorded voice inputs and stored it as
